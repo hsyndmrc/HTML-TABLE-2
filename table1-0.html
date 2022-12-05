@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      .cntr {
+        text-align: center;
+      }
+      th {
+        background-color: aqua;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #ced4ea;
+      }
+
+      #byz {
+        background-color: whitesmoke;
+      }
+
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="0.2">
+      <thead>
+        <tr>
+          <th colspan="7">Zaman Çizelgesi</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr id="gun">
+          <td>Günler</td>
+          <td></td>
+          <td class="cntr">Ptesi</td>
+          <td class="cntr">Salı</td>
+          <td class="cntr">Çarş</td>
+          <td class="cntr">Perş</td>
+          <td class="cntr">Cuma</td>
+        </tr>
+        <tr>
+          <td rowspan="5" id="byz">Saatler</td>
+          <td class="cntr">1</td>
+          <td class="cntr">Türkçe</td>
+          <td class="cntr">Mat</td>
+          <td class="cntr">Türkçe</td>
+          <td class="cntr">Mat</td>
+          <td class="cntr">Fen</td>
+        </tr>
+
+        <tr>
+          <td class="cntr">2</td>
+          <td class="cntr">Türkçe</td>
+          <td class="cntr">Mat</td>
+          <td class="cntr">Türkçe</td>
+          <td class="cntr">Mat</td>
+          <td class="cntr">Fen</td>
+        </tr>
+
+        <tr>
+          <td colspan="6" style="text-align: center">DİNLENME</td>
+        </tr>
+
+        <tr>
+          <td class="cntr">3</td>
+          <td class="cntr">Sosyal</td>
+          <td class="cntr">Müzik</td>
+          <td class="cntr">Sosyal</td>
+          <td class="cntr">Fen</td>
+          <td class="cntr">Din</td>
+        </tr>
+
+        <tr>
+          <td class="cntr">4</td>
+          <td class="cntr">Sosyal</td>
+          <td class="cntr">Beden</td>
+          <td class="cntr">Sosyal</td>
+          <td class="cntr">Fen</td>
+          <td class="cntr">Din</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
